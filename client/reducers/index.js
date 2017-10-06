@@ -1,8 +1,26 @@
 import { combineReducers } from 'redux';
-import counterReducer from './counterReducer';
+import counter from './counter';
 
 const counterApp = combineReducers({
-  counterReducer
+  counter
 })
 
 export default counterApp
+
+
+/*
+
+Redux To-Do Example #1
+
+import { combineReducers } from 'redux'
+import todos from './todos'
+import visibilityFilter from './visibilityFilter'
+
+const todoApp = combineReducers({
+  todos,
+  visibilityFilter
+})
+
+export default todoApp
+
+*/
